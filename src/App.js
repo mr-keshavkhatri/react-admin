@@ -15,12 +15,13 @@ function App() {
 
         <div className="container-fluid">
           <div className="row">
-            <Menu />
+            {/* <Menu /> */}
 
-            <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+            {/* <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
               <Route path={'/'} exact component={Dashboard} />
               <Route path={'/users'} component={Users} />
-            </main>
+            </main> */}
+            App
           </div>
         </div>
       </BrowserRouter>
